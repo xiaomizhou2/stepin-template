@@ -1,5 +1,5 @@
 // 引入 src/pages 文件夹下所有组件作为动态组件
-import Pages from '@/pages';
+import Pages from '@/views';
 import { RouteRecordRaw } from 'vue-router';
 import { RouteOption, LazyRouteComponent, RouteRecordLink } from './interface';
 import router from './index';

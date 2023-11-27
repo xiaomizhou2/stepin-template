@@ -37,7 +37,7 @@
   import avatar from '@/assets/avatar.png';
   import { PageFooter, HeaderActions } from '@/components/layout';
   import Setting from './components/setting';
-  import { LoginModal } from '@/pages/login';
+  import { LoginModal } from '@/views/login';
   import { configTheme, themeList } from '@/theme';
   import { ThemeProvider } from 'stepin';
   import { computed } from 'vue';

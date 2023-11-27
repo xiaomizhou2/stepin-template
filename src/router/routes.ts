@@ -28,7 +28,7 @@ const routes: RouteRecordRaw[] = [
           target: '_blank',
           cacheable: false,
         },
-        component: () => import('@/pages/login'),
+        component: () => import('@/views/login'),
       },
       {
         path: '/home',
@@ -36,7 +36,7 @@ const routes: RouteRecordRaw[] = [
         meta: {
           view: 'blank',
         },
-        component: () => import('@/pages/home'),
+        component: () => import('@/views/home'),
       },
     ],
   },
@@ -47,7 +47,7 @@ const routes: RouteRecordRaw[] = [
     meta: {
       renderMenu: false,
     },
-    component: () => import('@/pages/Exp403.vue'),
+    component: () => import('@/views/Exp403.vue'),
   },
   {
     path: '/:pathMatch(.*)*',
@@ -59,7 +59,7 @@ const routes: RouteRecordRaw[] = [
       cacheable: false,
       _is404Page: true,
     },
-    component: () => import('@/pages/Exp404.vue'),
+    component: () => import('@/views/Exp404.vue'),
   },
 ];
 
